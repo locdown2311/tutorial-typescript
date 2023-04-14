@@ -75,5 +75,3 @@ pessoa = {
 ```typescript
 let pessoa: [string, number] = ["João", 25];
 ```
-
-## Atribuição de valores:
