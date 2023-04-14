@@ -76,9 +76,9 @@
 
 - Os operadores de comparação são utilizados para comparar valores.
 Os operadores de comparação em TypeScript são (sem as aspas duplas): 
-- "==" (igualdade), 
-- "!=" (diferença), 
-- ">" (maior que),
-- "<" (menor que),
-- ">=" (maior ou igual)
-- "<="" (menor ou igual).
+- == (igualdade), 
+- != (diferença), 
+- \> (maior que),
+- < (menor que),
+- \>= (maior ou igual)
+- <= (menor ou igual).
