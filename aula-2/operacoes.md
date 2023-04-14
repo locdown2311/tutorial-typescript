@@ -66,9 +66,7 @@
 
 - Os operadores de atribuição são utilizados para atribuir valores a variáveis.
 - O operador de atribuição em TypeScript é o "=".
-  
-Exemplo:
-
+- Por exemplo, para atribuir o valor 10 a uma variável chamada "numero", podemos fazer:
     ```typescript
     let numero: number;
     numero = 10;
