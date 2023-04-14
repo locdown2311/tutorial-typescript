@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    /* Configurações básicas */
+    "target": "es5", /* Especifica a versão do ECMAScript alvo. */
+    "module": "commonjs", /* Especifica o sistema de módulos. */
+    "lib": [
+      "dom",
+      "es2015",
+      "es2017"
+    ], /* Bibliotecas de declaração incluídas no projeto. */
+    "sourceMap": true, /* Gera arquivos .map correspondentes. */
+    "outDir": "./dist", /* Diretório de saída para arquivos compilados. */
+    "rootDir": "./src", /* Diretório raiz dos arquivos fonte. */
+    "strict": true, /* Habilita todas as verificações de tipo estritas. */
+    "moduleResolution": "node", /* Estratégia de resolução de módulos. */
+    "esModuleInterop": true, /* Habilita a interoperabilidade de módulos CommonJS/AMD/UMD. */
+    /* Configurações adicionais */
+    "forceConsistentCasingInFileNames": true, /* Impede inconsistências de maiúsculas e minúsculas nos nomes de arquivos. */
+    "noImplicitReturns": true, /* Gera erro quando a função não possui um caminho de retorno explícito. */
+    "noFallthroughCasesInSwitch": true, /* Gera erro para os casos de 'switch' que não possuem 'break'. */
+    "noUnusedLocals": true, /* Gera erro para variáveis locais não utilizadas. */
+    "noUnusedParameters": true, /* Gera erro para parâmetros não utilizados. */
+    "resolveJsonModule": true, /* Permite importação de arquivos JSON. */
+    /* Configurações para a integração JSX */
+    // "jsx": "react",                        /* Ativa o suporte JSX e especifica o modo. */
+    // "reactNamespace": "React",             /* Define a namespace JSX. */
+  },
+  "include": [
+    "src/**/*.ts"
+  ], /* Padrões de arquivo para incluir na compilação. */
+  "exclude": [
+    "node_modules"
+  ] /* Padrões de arquivo para excluir da compilação. */
+}
