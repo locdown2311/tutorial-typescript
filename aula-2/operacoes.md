@@ -82,3 +82,60 @@ Os operadores de comparação em TypeScript são:
 - < (menor que),
 - \>= (maior ou igual)
 - <= (menor ou igual).
+
+## Operadores lógicos:
+
+- Os operadores lógicos são utilizados para combinar expressões lógicas.
+
+### AND (E):
+
+- O operador AND em TypeScript é o &&.
+- Seu resultado é verdadeiro se as duas expressões forem verdadeiras.
+- Por exemplo, para verificar se uma variável chamada "numero" é maior que 10 e menor que 20, podemos fazer:
+    ```typescript
+    let numero: number;
+    numero = 15;
+    let resultado: boolean;
+    resultado = numero > 10 && numero < 20;
+    ```
+- O resultado da operação acima é verdadeiro.
+
+### OR (OU):
+
+- O operador OR em TypeScript é o ||.
+- Seu resultado é verdadeiro se pelo menos uma das expressões for verdadeira.
+- Por exemplo, para verificar se uma variável chamada "numero" é maior que 10 ou menor que 20, podemos fazer:
+    ```typescript
+    let numero: number;
+    numero = 15;
+    let resultado: boolean;
+    resultado = numero > 10 || numero < 20;
+    ```
+- O resultado da operação acima é verdadeiro.
+
+### NOT (NÃO):
+- O operador NOT em TypeScript é o !.
+- Seu resultado é o oposto da expressão.
+- Por exemplo, para verificar o oposto de uma variável chamada "numero" ser maior que 10, podemos fazer:
+    ```typescript
+    let numero: number;
+    numero = 15;
+    let resultado: boolean;
+    resultado = !(numero > 10);
+    ```
+- O resultado da operação acima é falso.
+
+
+## Operador ternário:
+
+- O operador ternário é um operador condicional que recebe três operandos.
+- É uma versão simplificada de operadores de comparação.
+- Por exemplo, para verificar se uma variável chamada "numero" é maior que 10, podemos fazer:
+    ```typescript
+    let numero: number;
+    numero = 15;
+    let resultado: boolean;
+    resultado = numero > 10 ? true : false;
+    ```
+- O resultado da operação acima é verdadeiro.
+
