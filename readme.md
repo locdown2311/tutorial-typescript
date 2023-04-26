@@ -24,4 +24,4 @@ Logo, o TypeScript pode ser utilizado em páginas web ou no backend através do 
 
 ## Seção 4 - Tópicos avançados
 ###  [Módulos](aula-7/modulos.md)
-###  [Genericos](aula-8/genericos.md)
+###  [Genericos](aula-7/genericos.md)
