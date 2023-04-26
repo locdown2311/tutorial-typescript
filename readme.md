@@ -1,3 +1,12 @@
+# Curso de TypeScript
+Ao longo desse curso, será possivel compreender os principios da programação orientada a objetos e como o TypeScript pode ser utilizado para facilitar o desenvolvimento de aplicações.
+
+Por ser uma linguagem que extende o JavaScript, o TypeScript pode ser utilizado em qualquer projeto que utilize JavaScript, seja no front-end ou no back-end.
+
+É possivel utilizar o TypeScript em conjunto com o NodeJS, React, Angular, Vue, etc.
+
+Logo, o TypeScript pode ser utilizado em páginas web ou no backend através do Nodejs.
+
 # Seções do Curso
 
 ## Seção 1 - Primeiros passos
