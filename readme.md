@@ -31,4 +31,4 @@ Logo, o TypeScript pode ser utilizado em páginas web ou no backend através do 
 - Com a boa compreensão do curso, você será capaz de aprender qualquer linguagem de programação, pois a lógica é a mesma para todas as linguagens.
 - Cada pessoa tem seu ritmo, então não se preocupe em terminar o curso em um determinado tempo. O importante é que você aprenda e entenda o conteúdo.
 
-- > Aprender é como remar contra a correnteza, se parar, você volta.
+> Aprender é como remar contra a correnteza, se parar, você volta.
