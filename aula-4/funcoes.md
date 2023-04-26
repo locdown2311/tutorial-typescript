@@ -45,12 +45,28 @@
     let variavel = nomeDaFuncao(valor1, valor2);
     ```
 
-## Parametros opcionais:
+## Parâmetros opcionais:
 - Podemos definir parâmetros opcionais em uma função.
 - Para isso, basta adicionar um ponto de interrogação após o nome do parâmetro.
 
 ```typescript
 function nomeDaFuncao(parametro1?, parametro2?) {
     // código da função
+}
+```
+
+## Parâmetros com valor padrão:
+- Podemos definir valores padrão para os parâmetros de uma função.
+- Para isso, basta atribuir um valor padrão ao parâmetro.
+
+```typescript
+function exponencial(base: number, potencia: number = 2): number {
+  let resultado: number = base;
+
+  for (let i: number = 1; i < potencia; i++) {
+    resultado *= base;
+  }
+
+  return resultado;
 }
 ```
